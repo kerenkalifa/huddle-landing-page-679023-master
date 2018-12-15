@@ -1,0 +1,87 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  background-image: url('../images/bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > * {
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.banner {
+  width: 670px;
+  height: 470px;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+h1,
+p,
+a {
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.register_button {
+  margin-top: 20px;
+  float: left;
+  background: white;
+  color: hsl(257, 40%, 49%);
+  padding: 10px 50px;
+  border-radius: 40px;
+  text-decoration: none;
+  box-shadow: 4px 4px 6px black;
+}
+
+.social {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  width: 300px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.fab {
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  margin: 6px;
+  box-shadow: 1px 1px 5px black;
+}
